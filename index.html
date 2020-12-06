@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div><img class="menu__icon" id="icon" src="assets/icons/menu.svg" alt=""></div>
     <header>
-        <nav class="header__nav--bar">
-            <div><img class="nav__menu--icon" src="assets/icons/menu.svg" alt=""></div>
-            <ul>
+        <nav class="nav">
+            <ul >
                 <li><a href="">Home</a></li>
                 <li><a href="">Profile</a></li>
                 <li><a href="">Blog</a></li>
@@ -25,5 +25,18 @@
     <footer>
 
     </footer>
+    <script>
+        const menu = document.querySelector('.nav');
+        const icon = document.querySelector('#icon');
+        
+        icon.addEventListener('click', show)
+        function show(){
+            if(menu.classList.contains('is__active')){
+                menu.classList.remove('is__active');
+            }else{
+                menu.classList.add('is__active');
+            } 
+        }
+    </script>
 </body>
 </html>

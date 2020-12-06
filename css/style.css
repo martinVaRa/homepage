@@ -63,6 +63,8 @@ html{
     font-size: 1.4rem;
 }
 
+/*----------blog----------*/
+
 .main__section--blog{
     width: 100%;
     height: 110vh;
@@ -76,6 +78,8 @@ html{
     position: relative;
     top: 15px;
 }
+
+/*----------cards----------*/
 
 .cards--post{
     width: 90%;
@@ -107,6 +111,8 @@ html{
     color: #111;
 }
 
+/*----------work----------*/
+
 .main__section--work{
     width: 100%;
     height: 110vh;
@@ -118,6 +124,8 @@ html{
     position: relative;
     top: 15px;
 }
+
+/*----------profile----------*/
 
 .main__section--profile{
     width: 100%;
@@ -161,6 +169,8 @@ html{
     font-size: 2.1rem;
 }
 
+/*----------footer----------*/
+
 .footer{
     width: 100%;
     height: 30vh;
@@ -172,7 +182,7 @@ html{
     height: 50%;
     position: relative;
     top: 5px;
-    left: 5px;
+    left: 15px;
     font-size: 2.3rem;
 }
 

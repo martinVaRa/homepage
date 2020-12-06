@@ -1,42 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div><img class="menu__icon" id="icon" src="assets/icons/menu.svg" alt=""></div>
     <header>
         <nav class="nav">
-            <ul >
-                <li><a href="">Home</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contact</a></li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#profile">Profile</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <section class="main__section--home" id="home">
+            <section class="home--description">
+                <h1>Welcome my page</h1>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </article>
+            </section>
+        </section>
+        <section class="main__section--blog" id="blog">
+            <h2 class="blog--title">Welcome Blog</h2>
+            <section class="cards--blog">
+                <div class="cards--post">
+                    <h2>Hello</h2>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut nobis aspernatur placeat ducimus
+                            suscipit eaque ab consequatur numquam qui at.
+                        </p>
+                    </article>
+                </div>
 
+                <div class="cards--post">
+                    <h2>Hello</h2>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut nobis aspernatur placeat ducimus
+                            suscipit eaque ab consequatur numquam qui at.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="cards--post">
+                    <h2>Hello</h2>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut nobis aspernatur placeat ducimus
+                            suscipit eaque ab consequatur numquam qui at.
+                        </p>
+                    </article>
+                </div>
+                <div class="cards__post--button">
+                    <a href="#">View all blog</a>
+                </div>
+            </section>
+        </section>
+        <section class="main__section--work" id="work">
+            <h2 class="work--title">Review work</h2>
+            <div class="cards--post">
+                <h2>Name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Aut nobis aspernatur placeat ducimus
+                    suscipit eaque ab consequatur numquam qui at.
+                </p>
+            </div>
+
+            <div class="cards--post">
+                <h2>Name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Aut nobis aspernatur placeat ducimus
+                    suscipit eaque ab consequatur numquam qui at.
+                </p>
+            </div>
+
+            <div class="cards--post">
+                <h2>Name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Aut nobis aspernatur placeat ducimus
+                    suscipit eaque ab consequatur numquam qui at.
+                </p>
+            </div>
+
+            <div class="cards__post--button">
+                <a href="#">View all work</a>
+            </div>
+        </section>
+        <section class="main__section--profile">
+            <h2 class="profile--title">Profile</h2>
+            <section class="profile--id">
+                <img src="" alt="" class="profile--avatar">
+            </section>
+            <section class="profile--contact">
+                <ul>
+                    <li><p for="">Name: Martin Valdes Ramirez</p></li>
+                    <li><p for="">Country: Mexico</p></li>
+                    <li><p for="">Occupation: developer</p></li>
+                    <li><a href="#">martinmgvr@gmail.com</a></li>
+                </ul>
+            </section>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+            <section class="footer--logo">
+                <h3>Logo</h3>
+            </section>
+        <section class="footer--social">
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Instagram</a> </li>
+                <li><a href="">Github</a></li>
+                <li><a href="">Slack</a></li>
+            </ul>
+        </section>
+        <section class="footer--copy">
+            <ul>
+                <li><a href="">Legal</a></li>
+                <li><a href="">Copy</a></li>
+                <li><a href="">by vara</a></li>
+            </ul>
+        </section>
     </footer>
     <script>
         const menu = document.querySelector('.nav');
         const icon = document.querySelector('#icon');
-        
+
         icon.addEventListener('click', show)
-        function show(){
-            if(menu.classList.contains('is__active')){
+
+        function show() {
+            if (menu.classList.contains('is__active')) {
                 menu.classList.remove('is__active');
-            }else{
+            } else {
                 menu.classList.add('is__active');
-            } 
+            }
         }
     </script>
 </body>
+
 </html>

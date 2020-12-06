@@ -41,3 +41,176 @@ html{
     text-decoration: none;
     color: #000;
 }
+
+/*----------main----------*/
+
+.main__section--home{
+    height: 100vh;
+    background-image: url(../assets/image/1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+    text-align: center;
+}
+.home--description{
+    position: relative;
+    top: 150px;
+}
+.home--description h1{
+    font-size: 3.1rem;
+}
+.home--description article p{
+    font-size: 1.4rem;
+}
+
+.main__section--blog{
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.main__section--blog .blog--title{
+    font-size: 2.2rem;
+    position: relative;
+    top: 15px;
+}
+
+.cards--post{
+    width: 90%;
+    height: 150px;
+    background-color: #e1e1e1;
+    padding: 5px 15px;
+    text-align: start;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.cards__post--button{
+    width: 90%;
+    height: 30px;
+    background-color: #9b9494;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    margin: 30px auto;
+    text-align: center;
+    padding: 4px;
+}
+
+.cards__post--button a{
+    text-decoration: none;
+    color: #111;
+}
+
+.main__section--work{
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+}
+
+.main__section--work .work--title{
+    font-size: 2.2rem;
+    position: relative;
+    top: 15px;
+}
+
+.main__section--profile{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+.main__section--profile .profile--title{
+    font-size: 2.2rem;
+    position: relative;
+    top: 15px;
+}
+
+.profile--id{
+    width: 90%;
+    height: 150px;
+    background-color: #e1e1e1;
+    margin-top: 20px;
+    border: 1px solid #1e1e1e;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.profile--contact{
+    width: 90%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.profile--contact ul{
+    list-style: none;
+}
+
+.profile--contact ul p{
+    font-size: 1.9rem;
+}
+
+.profile--contact ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2.1rem;
+}
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #544c4c;
+}
+
+.footer--logo{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 2.3rem;
+}
+
+.footer .footer--social{
+    width: 100%;
+}
+
+.footer--social ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer--social ul li{
+    list-style: none;
+}
+
+.footer--social ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.footer .footer--copy{
+    width: 100%;
+    margin-top: 45px;
+}   
+
+.footer--copy ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer--copy ul li{
+    list-style: none;
+}
+
+.footer--copy ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
